@@ -2,6 +2,10 @@
   "version": 2,
   "projects": {
     "flatmanagment": "apps/flatmanagment",
-    "flatmanagment-e2e": "apps/flatmanagment-e2e"
+    "flatmanagment-e2e": "apps/flatmanagment-e2e",
+    "ng-core": "libs/ng-core",
+    "ng-data-access": "libs/ng-data-access",
+    "ng-shared": "libs/ng-shared",
+    "ng-shared-ui": "libs/ng-shared-ui"
   }
 }

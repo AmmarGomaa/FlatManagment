@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/ng-data-access",
+  "sourceRoot": "libs/ng-data-access/src",
+  "prefix": "flatmanagment",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ng-data-access"],
+      "options": {
+        "jestConfig": "libs/ng-data-access/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/ng-data-access/src/**/*.ts",
+          "libs/ng-data-access/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

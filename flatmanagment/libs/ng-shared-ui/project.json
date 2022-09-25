@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/ng-shared-ui",
+  "sourceRoot": "libs/ng-shared-ui/src",
+  "prefix": "flatmanagment",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ng-shared-ui"],
+      "options": {
+        "jestConfig": "libs/ng-shared-ui/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/ng-shared-ui/src/**/*.ts",
+          "libs/ng-shared-ui/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@flatmanagment/ng-core": ["libs/ng-core/src/index.ts"],
+      "@flatmanagment/ng-data-access": ["libs/ng-data-access/src/index.ts"],
+      "@flatmanagment/ng-shared": ["libs/ng-shared/src/index.ts"],
+      "@flatmanagment/ng-shared-ui": ["libs/ng-shared-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/ng-core",
+  "sourceRoot": "libs/ng-core/src",
+  "prefix": "flatmanagment",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ng-core"],
+      "options": {
+        "jestConfig": "libs/ng-core/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/ng-core/src/**/*.ts",
+          "libs/ng-core/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
